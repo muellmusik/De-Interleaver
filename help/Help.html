@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<META NAME="AppleTitle" CONTENT="De-Interleaver Help">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title></title>
+<meta name="Generator" content="Cocoa HTML Writer">
+<meta name="CocoaVersion" content="824.42">
+<style type="text/css">
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.0px Helvetica}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica}
+p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #0020e4}
+span.s1 {text-decoration: underline ; color: #0736d3}
+span.s2 {text-decoration: underline}
+</style>
+</head>
+<body>
+<p class="p1"><b>De-Interleaver</b></p>
+<p class="p2"><br></p>
+<p class="p3">This is a simple application that does only two things: Take a multichannel audio file and split it into mono files, or the reverse.</p>
+<p class="p2"><br></p>
+<p class="p3">Input formats are anything that libsndfile reads (so almost anything!). Check here for details: <a href="http://www.mega-nerd.com/libsndfile/"><span class="s2">http://www.mega-nerd.com/libsndfile/</span></a></p>
+<p class="p2"><br></p>
+<p class="p3">Output formats are aiff, wav, or caf (64-bit CoreAudio format, which allows for <i>really</i> large interleaved files!). The output sample type will be that of the first input file, providing it's supported by the output format. If not it will default to 32 bit floating point, which in most cases should mean no loss of resolution.</p>
+<p class="p2"><br></p>
+<p class="p4"><b>Interleaving</b></p>
+<p class="p2"><br></p>
+<p class="p3">For interleaving you can have files of different lengths, and the application will simply zero pad the end of the shorter files. Other than that nothing much fancy, you can't interleave multichannel files (sorry, split them into mono and then do it) and there's no mixing down or anything like that.</p>
+<p class="p2"><br></p>
+<p class="p3">You can change the channel order by dragging files in the table.</p>
+<p class="p2"><br></p>
+<p class="p3">It assumes you know what you're doing, and doesn't prohibit interleaving files with different sample rates (output sr is that of the first channel) or types.</p>
+<p class="p2"><br></p>
+<p class="p4"><b>Deinterleaving</b></p>
+<p class="p2"><br></p>
+<p class="p3">You can edit the names of the output channels by double-clicking on the table cells.</p>
+<p class="p2"><br></p>
+<p class="p4"><b>License, etc.</b></p>
+<p class="p2"><br></p>
+<p class="p3">De-Interleaver is released under the GPL, and it's development is funded in part by a grant from the <span class="s2"><a href="http://www.ahrc.ac.uk/">Arts and Humanities Research Council of Britain</a></span>, as part of the BEASTMulch project.</p>
+<p class="p2"><br></p>
+<p class="p3">Let me know if any bugs arise: i@scottwilson.ca</p>
+<p class="p2"><br></p>
+<p class="p5"><span class="s2"><a href="http://scottwilson.ca/">http://scottwilson.ca</a></span></p>
+<p class="p5"><span class="s2"><a href="https://www.birmingham.ac.uk/facilities/ea-studios/index.aspx/">https://www.birmingham.ac.uk/facilities/ea-studios/index.aspx</a></span></p>
+</body>
+</html>
