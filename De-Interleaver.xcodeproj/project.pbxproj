@@ -44,8 +44,8 @@
 		8D1107320486CEB800E47090 /* De-Interleaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "De-Interleaver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2583E00C2C68C500307453 /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = sndfile.h; path = libsndfile/sndfile.h; sourceTree = "<group>"; };
 		FE327FBA0BDAD72A00838B82 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsndfile.a; path = libsndfile/libsndfile.a; sourceTree = "<group>"; };
-		FE3280B70BDB07CE00838B82 /* deinttb.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deinttb.pdf; path = "test pngs/deinttb.pdf"; sourceTree = "<group>"; };
-		FE3280B80BDB07CE00838B82 /* inttb.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = inttb.pdf; path = "test pngs/inttb.pdf"; sourceTree = "<group>"; };
+		FE3280B70BDB07CE00838B82 /* deinttb.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = deinttb.pdf; path = toolbar/deinttb.pdf; sourceTree = "<group>"; };
+		FE3280B80BDB07CE00838B82 /* inttb.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = inttb.pdf; path = toolbar/inttb.pdf; sourceTree = "<group>"; };
 		FE7F55280C2C6FDC00FEA488 /* APPL.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = APPL.icns; sourceTree = "<group>"; };
 		FE7F552B0C2C6FED00FEA488 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		FEBFCC0F0A67BBFF000723A9 /* Help.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Help.html; sourceTree = "<group>"; };
